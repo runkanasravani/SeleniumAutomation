@@ -1,0 +1,14 @@
+<suite name="Suite">
+<test name="Test">
+<classes>
+<class name="testngAnnotations.Dependency"/>
+<class name="testngAnnotations.Groups"/>
+<class name="testngAnnotations.priorities"/>
+<class name="testngAnnotations.TestNGAnnotations"/>
+<class name="testngAnnotations.TestCases"/>
+
+</classes>
+</test>
+<!--  Test  -->
+</suite>
+<!--  Suite  -->

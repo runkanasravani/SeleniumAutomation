@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="16" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-27T10:21:29Z" name="Suite" finished-at="2022-12-27T10:22:12Z" duration-ms="42450">
+    <groups>
+      <group name="Regression">
+        <method signature="Groups.testCase1()[pri:0, instance:testngAnnotations.Groups@419c5f1a]" name="testCase1" class="testngAnnotations.Groups"/>
+        <method signature="Groups.testCase3()[pri:0, instance:testngAnnotations.Groups@419c5f1a]" name="testCase3" class="testngAnnotations.Groups"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Groups.testCase2()[pri:0, instance:testngAnnotations.Groups@419c5f1a]" name="testCase2" class="testngAnnotations.Groups"/>
+        <method signature="Groups.testCase3()[pri:0, instance:testngAnnotations.Groups@419c5f1a]" name="testCase3" class="testngAnnotations.Groups"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-12-27T10:21:29Z" name="Test" finished-at="2022-12-27T10:22:12Z" duration-ms="42450">
+      <class name="testngAnnotations.Groups">
+        <test-method signature="testCase1()[pri:0, instance:testngAnnotations.Groups@419c5f1a]" started-at="2022-12-27T10:21:29Z" name="testCase1" finished-at="2022-12-27T10:21:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:0, instance:testngAnnotations.Groups@419c5f1a]" started-at="2022-12-27T10:21:29Z" name="testCase2" finished-at="2022-12-27T10:21:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase3()[pri:0, instance:testngAnnotations.Groups@419c5f1a]" started-at="2022-12-27T10:21:29Z" name="testCase3" finished-at="2022-12-27T10:21:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+      </class> <!-- testngAnnotations.Groups -->
+      <class name="testngAnnotations.Dependency">
+        <test-method signature="OpenBrowser()[pri:0, instance:testngAnnotations.Dependency@56de5251]" started-at="2022-12-27T10:21:29Z" name="OpenBrowser" finished-at="2022-12-27T10:21:29Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="SignIn()[pri:0, instance:testngAnnotations.Dependency@56de5251]" started-at="2022-12-27T10:21:29Z" name="SignIn" finished-at="2022-12-27T10:21:29Z" depends-on-methods="testngAnnotations.Dependency.OpenBrowser" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method signature="LogOut()[pri:0, instance:testngAnnotations.Dependency@56de5251]" started-at="2022-12-27T10:21:29Z" name="LogOut" finished-at="2022-12-27T10:21:29Z" depends-on-methods="testngAnnotations.Dependency.SignIn" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+      </class> <!-- testngAnnotations.Dependency -->
+      <class name="testngAnnotations.priorities">
+        <test-method signature="registerAccount()[pri:0, instance:testngAnnotations.priorities@12b0404f]" started-at="2022-12-27T10:21:29Z" name="registerAccount" finished-at="2022-12-27T10:21:29Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccount -->
+        <test-method signature="login()[pri:1, instance:testngAnnotations.priorities@12b0404f]" started-at="2022-12-27T10:21:41Z" name="login" finished-at="2022-12-27T10:21:41Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="sendEmail()[pri:2, instance:testngAnnotations.priorities@12b0404f]" started-at="2022-12-27T10:21:53Z" name="sendEmail" finished-at="2022-12-27T10:21:53Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEmail -->
+      </class> <!-- testngAnnotations.priorities -->
+      <class name="testngAnnotations.TestNGAnnotations">
+        <test-method is-config="true" signature="method1()[pri:0, instance:testngAnnotations.TestNGAnnotations@163e4e87]" started-at="2022-12-27T10:21:29Z" name="method1" finished-at="2022-12-27T10:21:29Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method is-config="true" signature="method3()[pri:0, instance:testngAnnotations.TestNGAnnotations@163e4e87]" started-at="2022-12-27T10:21:29Z" name="method3" finished-at="2022-12-27T10:21:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method signature="HrmForgotPassword()[pri:0, instance:testngAnnotations.TestNGAnnotations@163e4e87]" started-at="2022-12-27T10:21:29Z" name="HrmForgotPassword" finished-at="2022-12-27T10:21:40Z" duration-ms="11123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HrmForgotPassword -->
+        <test-method is-config="true" signature="method7()[pri:0, instance:testngAnnotations.TestNGAnnotations@163e4e87]" started-at="2022-12-27T10:21:29Z" name="method7" finished-at="2022-12-27T10:21:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method7 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testngAnnotations.TestNGAnnotations@163e4e87]" started-at="2022-12-27T10:21:29Z" name="beforeMethod" finished-at="2022-12-27T10:21:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testngAnnotations.TestNGAnnotations@163e4e87]" started-at="2022-12-27T10:21:40Z" name="afterMethod" finished-at="2022-12-27T10:21:40Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="method8()[pri:0, instance:testngAnnotations.TestNGAnnotations@163e4e87]" started-at="2022-12-27T10:21:40Z" name="method8" finished-at="2022-12-27T10:21:40Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method8 -->
+        <test-method is-config="true" signature="method4()[pri:0, instance:testngAnnotations.TestNGAnnotations@163e4e87]" started-at="2022-12-27T10:22:12Z" name="method4" finished-at="2022-12-27T10:22:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+        <test-method is-config="true" signature="method2()[pri:0, instance:testngAnnotations.TestNGAnnotations@163e4e87]" started-at="2022-12-27T10:22:12Z" name="method2" finished-at="2022-12-27T10:22:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+      </class> <!-- testngAnnotations.TestNGAnnotations -->
+      <class name="testngAnnotations.TestCases">
+        <test-method signature="webTable()[pri:0, instance:testngAnnotations.TestCases@769e7ee8]" started-at="2022-12-27T10:21:40Z" name="webTable" finished-at="2022-12-27T10:21:41Z" duration-ms="938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTable -->
+        <test-method signature="resetPassword()[pri:1, instance:testngAnnotations.TestCases@769e7ee8]" started-at="2022-12-27T10:21:41Z" name="resetPassword" finished-at="2022-12-27T10:21:53Z" duration-ms="12287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPassword -->
+        <test-method signature="hrmLogin()[pri:2, instance:testngAnnotations.TestCases@769e7ee8]" started-at="2022-12-27T10:21:53Z" name="hrmLogin" finished-at="2022-12-27T10:22:12Z" duration-ms="18028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hrmLogin -->
+      </class> <!-- testngAnnotations.TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
